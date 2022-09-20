@@ -4,14 +4,183 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            background-color: #CBD9E8;
+            text-align: center;
+            text-justify: auto;
+
+        }
+        .center{
+            max-width: 960px;
+            margin:0 auto;
+            padding:0 2%;
+            display: flex;
+        }
+        .logo{
+        
+        }
+        .main{
+            padding:30px 0;
+
+        }
+
+        .conteudo-single{
+            margin-top: 30px;
+            background-color: #ccdbec;
+        }
+
+        .logo-abaixo{
+            margin-top: 20px;
+        }
+
+        .funcao{
+            margin-top: 40px;
+        }
+
+        .contato{
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .centralizar{
+            text-align: center;
+        }
+
+        .distancia{
+            margin-bottom: 10px;
+        }
+
+        .cont{
+            background-color: #dee4eb;
+            border-radius: 10px;
+            margin: 5px;
+        }
+        .conte{
+            background-color: #dee4eb;
+            border-radius: 10px;
+            margin: 10px; 
+        }
+
+        .visualizacao{
+            margin-top: 40px;
+        }
+        .imag{
+            max-width: 960px;
+            margin:0 auto;
+            padding:0 2%;
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .visu{
+            margin-bottom: 20px;
+        }
+        .reserva{
+            max-width: 50px;
+            max-height: 55px;
+        }
+    </style>
+    <title>Admindep - Laboratórios</title>
 </head>
 <body>
-    <header>
-        <h1>ola mundo </h1>
-    </header>
-    <div>
-        boas vindas ao mundo da programação 
-    </div>
+    <div class="App">
+        <div class='main'>
+          <div class='center'>
+            <div class='menu'>
+              <div class='logo'>
+                <h1> AdminDEP - Módulo de Laboratórios</h1>
+              </div>
+              <p class='logo-abaixo'>
+              O AdminDEP é um software de sistema departamental, 
+              e o gerenciamento dos laboratórios é uma função fundamental presente no AdminDep.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class='funcao'>
+        <h2> Principais funções do AdminDep - Módulo de Laboratórios </h2>
+        </div>
+        <div class='conteudo'>
+          <div class='center'>
+            <div class='conteudo-single'>
+              <img src="calendario.png" class="reserva">
+              <h3 class='distancia'>Calendário Geral</h3>
+              <p class='cont'>
+              Visualizar todas as reservas dos laboratórios do
+               departamento em forma de calendário
+              </p>
+            </div>
+            <div class='conteudo-single'>
+              <img src="calendario.png" class="reserva">
+              <h3 class='distancia'>Calendário Pessoal</h3>
+              <p class='cont'>
+              Visualizar todas as reservas relacionadas ao usuário em forma de calendário
+              </p>
+            </div>
+            <div class='conteudo-single'>
+              <img src="recurso.png" class="reserva">
+              <h3 class='distancia'>Alocação Semestral de Reserva</h3>
+              <p class='cont'>
+              Alocação de todas as turmas do semestre pelo Chefe do departamento por meio do AdminDep
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class='conteudo'>
+          <div class='center'>
+            <div class='conteudo-single'>
+                <img src="reserva.png" class="reserva">
+              <h3 class='distancia'>Solicitar Reserva</h3>
+              <p class='cont'>
+              Solicite Reservas para moderação da secretaria do departamento 
+              pelo AdminDep.
+              </p>
+            </div>
+            <div class='conteudo-single'>
+              <img src="reserva.png" class="reserva">
+              <h3 class='distancia'>Reserva Direta</h3>
+              <p class='conte'>
+              Liberdade do Porfessor de cadastrar sua prórpria reserva diretamente no AdminDep
+              </p>
+            </div>
+            <div class='conteudo-single'>
+              <img src="gerenciamento-de-tempo.png" class="reserva">
+              <h3 class='distancia'>Gerenciar Laboratórios</h3>
+              <p class='cont'>
+              Cadastro e exibição de informações dos Laboratórios para todos os usuários
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class='visualizacao'>
+          <div class="visu">
+            <h2>Visualização de telas</h2>
+          </div>
+          <div class='imag'>
+              <img src="./calendario-geral.jpg">
+              <p>This Repository is about the basic practice of HTML. Here, I have 
+                divided my lesson into folders and put the learning elements in a separate folder.
+                 This repository is only the basic practice of HTML. No project or project work is added here.</p>
+          </div>
+          <div  class='imag'>
+            <p>This Repository is about the basic practice of HTML. Here, I have 
+                divided my lesson into folders and put the learning elements in a separate folder.
+                 This repository is only the basic practice of HTML. No project or project work is added here.</p>
+            <img src="./solicitacao-reserva.jpg">
+        </div>
+        </div>
+        <div class='contato'>
+          <div class='centralizar'>
+            <h2 class='distancia'>Contatos</h2>
+            <p>Secretaria@dcomp.ufs.br</p>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
